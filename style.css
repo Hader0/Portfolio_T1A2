@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --orange: #fa824c;
+    --green: #A2D729;
+    --white: #FAFFFD;
+    --dark-grey: #342e37;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Header */
+
+header {
+    width: 100%;
+    height: 7dvh;
+    background-color: var(--dark-grey);
+    color: var(--white);
+    font-weight: 750;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Nav Bar underneath the Header */
+
+nav {
+    background-color: var(--orange);
+    width: 100%;
+    height: 3dvh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav > a {
+    height: 100%;
+    color: var(--white);
+    max-height: fit-content;
+    padding: 0 0.5em 0 0.5em;
+    text-decoration: none;
+    transition: 0.25s ;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Hover for Nav Bar */
+
+nav > a:hover{
+    background-color: var(--white);
+    color: var(--orange);
+    font-weight: bold;
+}
+
+
+/* Main Body Content */
+
+main {
+    width: 100%;
+    height: 87dvh;
+    background-color: var(--white);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Image Section */
+
+.imageContainer {
+    width: 100%;
+    height: 34dvh;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imageContainer > img{
+    max-width: 50%;
+}
+
+/* Introduction Section */
+.introduction {
+    width: 75%;
+    height: 52dvh;
+    color: var(--dark-grey);
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    row-gap: 1em;
+}
+
+.headingIntroduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleIntroduction {
+    font-size: 1.25em;
+    text-align: center;
+}
+
+.nameIntroduction {
+    font-size: 3em;
+    font-weight: 1000;
+    color: var(--orange);
+    text-align: center;
+}
+
+.introduction > p {
+    justify-self: flex-start;
+    line-height: 1.25em;
+    font-weight: 500;
+}
+
+.codingIcons {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.codingIcons > img {
+    max-width: 25%;
+    transform: scale(0.6);
+}
+
+.introductionContact {
+    padding: 15px;
+    border-radius: 1.5em;
+    background-color: var(--orange);
+    color: var(--white);
+    font-weight: 750;
+    transition: 0.25s;
+    align-self: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Introduction Hover */
+
+.introductionContact:hover {
+    background-color: var(--green);
+    transform: scale(1.2);
+}
+
+
+/* Footer */
+
+footer {
+    width: 100%;
+    height: 3dvh;
+    background-color: var(--dark-grey);
+    color: var(--white);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Responsive Below 800px Height - The reason I added an option for under 800px is because I have
+friends at work who use iPhone SE's, which means there may be others */
+
+@media screen and (max-height: 800px) {
+    
+    header {
+        height: 8dvh;
+    }
+    nav {
+        height: 5dvh;
+    }
+    
+    main {
+        height: 84dvh;
+    }
+
+    .imageContainer {
+        display: none;
+    }
+
+    .introduction {
+        height: 100%;
+        row-gap: 2em;
+        justify-content: center;
+    }
+}
