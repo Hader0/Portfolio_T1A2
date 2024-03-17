@@ -53,14 +53,12 @@ nav > a {
     align-items: center;
 }
 
-/* Hover for Nav Bar */
+/* Hover for Nav Bar & Background Color change for each page */
 
 nav > a:hover{
     background-color: var(--white);
     color: var(--orange);
-    font-weight: bold;
 }
-
 
 /* Main Body Content */
 
@@ -125,6 +123,7 @@ main {
     justify-self: flex-start;
     line-height: 1.25em;
     font-weight: 500;
+    text-wrap: pretty;
 }
 
 .codingIcons {
@@ -177,7 +176,7 @@ footer {
 /* Responsive Below 800px Height - The reason I added an option for under 800px is because I have
 friends at work who use iPhone SE's, which means there may be others */
 
-@media screen and (max-height: 800px) {
+@media screen and (max-height: 800px) and (max-width: 1023px) {
     
     header {
         height: 8dvh;

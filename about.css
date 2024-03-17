@@ -13,10 +13,14 @@ html {
     scrollbar-width: none;
 }
 
+/* Page Link Background Change */
+.aboutPage {
+    background-color: var(--green);
+}
+
 /* Nav */
 .aboutPage {
     background-color: var(--green);
-    font-weight: 600;
 }
 
 /* Main Body Content */
@@ -74,6 +78,7 @@ section > p {
 
 .introAbout > p {
     margin-bottom: 1em;
+    text-wrap: pretty;
 }
 
 /* Image */
@@ -122,6 +127,12 @@ span {
 .aboutHeading {
     border-bottom: 0.15em solid var(--green);
     width: fit-content;
+}
+
+/* Personality Section */
+
+.personality, .countryBeginnings > p {
+    text-wrap: pretty;
 }
 
 /* Work Life Section */

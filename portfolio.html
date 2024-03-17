@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="portfolio.css">
+    <script type="text/javascript" src="buttonFunctions.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- Header Title -->
+    <header>
+
+        <h1>Hayden Bradford</h1>
+
+    </header>
+
+    <!-- Header Nav Bar -->
+    <nav>
+        <a href="index.html" class="homePage">Home</a>
+        <a href="about.html" class="aboutPage">About</a>
+        <a href="contact.html" class="contactPage">Contact</a>
+        <a href="portfolio.html" class="portfolioPage">Portfolio</a>
+    </nav>
+
+    <!-- Main Content Section -->
+    <main>
+
+        <section class="introPortfolio">
+            <h1 class="introHeading">Portfolio</h1>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quisquam at consequuntur, 
+            ducimus eaque quia vitae necessitatibus adipisci quos cupiditate quod explicabo eum reiciendis 
+            totam ipsam? Numquam eos eum reprehenderit.
+            </p>
+        </section>
+
+        <section class="portfolioCards">
+            <section class="card">
+                <img src="https://fakeimg.pl/600x400?text=Database+App" alt="Database App Image">
+                <section class="cardButtons">
+                    <button class="codeButton">Code</button>
+                    <button class="codeDeployment">Deployment</button>
+                    <button class="cardAbout" onclick="showBlogOne()">About</button>
+                </section>
+            </section>
+
+            <section class="blog" id="blogPostOne">
+                <h2>Database App</h2>
+                <p class="author">Hayden Bradford - March 2024</p>
+                <p class="content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem cum quidem temporibus 
+                alias, eos ut consequuntur perferendis optio voluptates possimus reprehenderit atque sint, 
+                unde beatae, voluptatibus quos quaerat expedita officiis? Lorem, ipsum dolor sit amet 
+                consectetur adipisicing elit. Autem cum quidem temporibus alias, eos ut consequuntur perferendis 
+                optio voluptates possimus reprehenderit atque sint, unde beatae, voluptatibus quos quaerat expedita officiis?
+                </p>
+                <p class="content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem cum quidem temporibus 
+                alias, eos ut consequuntur perferendis optio voluptates possimus reprehenderit atque sint, 
+                unde beatae, voluptatibus quos quaerat expedita officiis? Lorem, ipsum dolor sit amet 
+                consectetur adipisicing elit. Autem cum quidem temporibus alias, eos ut consequuntur perferendis 
+                optio voluptates possimus reprehenderit atque sint, unde beatae, voluptatibus quos quaerat expedita officiis?
+                </p>
+
+                <button class="hideButton" onclick="hideBlogOne()">Hide</button>
+            </section>
+
+            <section class="card">
+                <img src="https://fakeimg.pl/600x400?text=Portfolio+Website" alt="Portfolio Site Image">
+                <section class="cardButtons">
+                    <button class="codeButton">Code</button>
+                    <button class="codeDeployment">Deployment</button>
+                    <button class="cardAbout" onclick="showBlogTwo()">About</button>
+                </section>
+            </section>
+
+            <section class="blog" id="blogPostTwo">
+                <h2>Portfolio Website</h2>
+                <p class="author">Hayden Bradford - March 2024</p>
+                <p class="content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem cum quidem temporibus 
+                alias, eos ut consequuntur perferendis optio voluptates possimus reprehenderit atque sint, 
+                unde beatae, voluptatibus quos quaerat expedita officiis? Lorem, ipsum dolor sit amet 
+                consectetur adipisicing elit. Autem cum quidem temporibus alias, eos ut consequuntur perferendis 
+                optio voluptates possimus reprehenderit atque sint, unde beatae, voluptatibus quos quaerat expedita officiis?
+                </p>
+                <p class="content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem cum quidem temporibus 
+                alias, eos ut consequuntur perferendis optio voluptates possimus reprehenderit atque sint, 
+                unde beatae, voluptatibus quos quaerat expedita officiis? Lorem, ipsum dolor sit amet 
+                consectetur adipisicing elit. Autem cum quidem temporibus alias, eos ut consequuntur perferendis 
+                optio voluptates possimus reprehenderit atque sint, unde beatae, voluptatibus quos quaerat expedita officiis?
+                </p>
+
+                <button class="hideButton" onclick="hideBlogTwo()">Hide</button>
+            </section>
+
+            <section class="card">
+                <img src="https://fakeimg.pl/600x400?text=Terminal+App" alt="Terminal App Image">
+                <section class="cardButtons">
+                    <button class="codeButton">Code</button>
+                    <button class="codeDeployment">Deployment</button>
+                    <button class="cardAbout" onclick="showBlogThree()">About</button>
+                </section>
+            </section>
+
+            <section class="blog" id="blogPostThree">
+                <h2>Terminal Application</h2>
+                <p class="author">Hayden Bradford - March 2024</p>
+                <p class="content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem cum quidem temporibus 
+                alias, eos ut consequuntur perferendis optio voluptates possimus reprehenderit atque sint, 
+                unde beatae, voluptatibus quos quaerat expedita officiis? Lorem, ipsum dolor sit amet 
+                consectetur adipisicing elit. Autem cum quidem temporibus alias, eos ut consequuntur perferendis 
+                optio voluptates possimus reprehenderit atque sint, unde beatae, voluptatibus quos quaerat expedita officiis?
+                </p>
+                <p class="content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem cum quidem temporibus 
+                alias, eos ut consequuntur perferendis optio voluptates possimus reprehenderit atque sint, 
+                unde beatae, voluptatibus quos quaerat expedita officiis? Lorem, ipsum dolor sit amet 
+                consectetur adipisicing elit. Autem cum quidem temporibus alias, eos ut consequuntur perferendis 
+                optio voluptates possimus reprehenderit atque sint, unde beatae, voluptatibus quos quaerat expedita officiis?
+                </p>
+
+                <button class="hideButton" onclick="hideBlogThree()">Hide</button>
+            </section>
+
+            <section class="card">
+                <img src="https://fakeimg.pl/600x400?text=API+Webserver" alt="API Webserver Image">
+                <section class="cardButtons">
+                    <button class="codeButton">Code</button>
+                    <button class="codeDeployment">Deployment</button>
+                    <button class="cardAbout" onclick="showBlogFour()">About</button>
+                </section>
+            </section>
+
+            <section class="blog" id="blogPostFour">
+                <h2>API Webserver</h2>
+                <p class="author">Hayden Bradford - March 2024</p>
+                <p class="content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem cum quidem temporibus 
+                alias, eos ut consequuntur perferendis optio voluptates possimus reprehenderit atque sint, 
+                unde beatae, voluptatibus quos quaerat expedita officiis? Lorem, ipsum dolor sit amet 
+                consectetur adipisicing elit. Autem cum quidem temporibus alias, eos ut consequuntur perferendis 
+                optio voluptates possimus reprehenderit atque sint, unde beatae, voluptatibus quos quaerat expedita officiis?
+                </p>
+                <p class="content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem cum quidem temporibus 
+                alias, eos ut consequuntur perferendis optio voluptates possimus reprehenderit atque sint, 
+                unde beatae, voluptatibus quos quaerat expedita officiis? Lorem, ipsum dolor sit amet 
+                consectetur adipisicing elit. Autem cum quidem temporibus alias, eos ut consequuntur perferendis 
+                optio voluptates possimus reprehenderit atque sint, unde beatae, voluptatibus quos quaerat expedita officiis?
+                </p>
+
+                <button class="hideButton" onclick="hideBlogFour()">Hide</button>
+            </section>
+
+            <section class="card">
+                <img src="https://fakeimg.pl/600x400?text=Full-Stack Website" alt="Full-Stack Website Image">
+                <section class="cardButtons">
+                    <button class="codeButton">Code</button>
+                    <button class="codeDeployment">Deployment</button>
+                    <button class="cardAbout" onclick="showBlogFive()">About</button>
+                </section>
+            </section>
+
+            <section class="blog" id="blogPostFive">
+                <h2>Full-Stack Website</h2>
+                <p class="author">Hayden Bradford - March 2024</p>
+                <p class="content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem cum quidem temporibus 
+                alias, eos ut consequuntur perferendis optio voluptates possimus reprehenderit atque sint, 
+                unde beatae, voluptatibus quos quaerat expedita officiis? Lorem, ipsum dolor sit amet 
+                consectetur adipisicing elit. Autem cum quidem temporibus alias, eos ut consequuntur perferendis 
+                optio voluptates possimus reprehenderit atque sint, unde beatae, voluptatibus quos quaerat expedita officiis?
+                </p>
+                <p class="content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem cum quidem temporibus 
+                alias, eos ut consequuntur perferendis optio voluptates possimus reprehenderit atque sint, 
+                unde beatae, voluptatibus quos quaerat expedita officiis? Lorem, ipsum dolor sit amet 
+                consectetur adipisicing elit. Autem cum quidem temporibus alias, eos ut consequuntur perferendis 
+                optio voluptates possimus reprehenderit atque sint, unde beatae, voluptatibus quos quaerat expedita officiis?
+                </p>
+
+                <button class="hideButton" onclick="hideBlogFive()">Hide</button>
+            </section>
+
+        </section>
+
+    </main>
+
+
+
+
+
+    <footer>
+        <h6>Hayden Bradford &copy; 2024</h6>
+    </footer>
+</body>
+</html>

@@ -1,9 +1,6 @@
-
-/* Nav Page Selection */
-
+/* Page Link Background Change */
 .contactPage {
     background-color: var(--green);
-    font-weight: 600;
 }
 
 /* Main Body Content */
@@ -12,16 +9,11 @@ main {
     height: auto;
     color: var(--dark-grey);
 
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     row-gap: 2em;
-}
-
-section {
-    width: 85%;
 }
 
 section > h1 {
@@ -35,6 +27,7 @@ section > p {
 /* Contact Heading, Introduction and Links Container */
 
 .contactMain {
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -70,12 +63,13 @@ section > p {
 
 .introContact > p {
     margin-bottom: 2em;
+    text-align: center;
 }
 
 /* LinkedIn, Github and Email Icons */
 
 .profileIcons {
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -83,7 +77,6 @@ section > p {
 
 .iconColumn {
     max-width: 30%;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -97,25 +90,42 @@ section > p {
 
 .iconButton {
     color: var(--white);
-    background-color: var(--green);
+    background-color: var(--orange);
     padding: 0.5em;
     font-weight: 700;
     border-radius: 0.5em;
-    border: none;
+    border: 2px solid var(--orange);
     margin-bottom: 2em;
+    filter: drop-shadow(3px 3px 0px var(--green));
 
     transition: 0.25s ease;
 }
 
 .iconButton:hover {
-    background-color: var(--orange);
+    background-color: var(--green);
+    border: 2px solid var(--green);
+    filter: drop-shadow(3px 3px 0px var(--orange));
     transform: scale(1.2);
 }
 
 /* Contact Form */
 
+.contactForm {
+    width: 80%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactForm > section {
+    width: fit-content;
+}
+
 .formHeading {
     border-bottom: 0.15em solid var(--green);
+    margin-bottom: 1em;
     width: fit-content;
 }
 
@@ -124,13 +134,51 @@ section > p {
 }
 
 .contactForm > section > input {
-    width: 50%;
+    width: 20em;
+    height: 2em;
     border: 3px solid var(--orange);
     border-radius: 0.5em;
+    padding: 0.25em;
+    font-weight: 600;
 }
 
-.contactForm > section > input:focus {
+.contactForm > section > textarea {
+    text-wrap: pretty;
+    width: 20em;
+    border: 3px solid var(--orange);
+    border-radius: 0.5em;
+    padding: 0.25em;
+    font-weight: 600;
+}
+
+.contactForm > section > input:hover, textarea:hover {
     outline: none;
     border-color: var(--green);
 }
 
+.contactForm > section > textarea:hover {
+    outline: none;
+    border-color: var(--green);
+}
+
+.contactForm > p {
+    font-size: x-small;
+    margin: 0;
+    margin-bottom: 2em;
+}
+
+.contactForm > button {
+    color: var(--white);
+    background-color: var(--orange);
+    padding: 1em;
+    font-weight: 700;
+    border-radius: 0.5em;
+    border: none;
+    margin-bottom: 2em;
+    transition: 0.25s ease;
+}
+
+.contactForm > button:hover {
+    transform: scale(1.2);
+    background-color: var(--green);
+}
