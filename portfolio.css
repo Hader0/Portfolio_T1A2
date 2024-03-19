@@ -161,9 +161,55 @@ main {
     margin-bottom: 3em;
     margin-top: 1em;
     align-self: center;
+    transition: 0.25s ease;
 }
 
 .hideButton:hover {
     transform: scale(1.2);
     filter: drop-shadow(6px 6px 0px var(--green));
+}
+
+/* Responsive Above 600px width - Desktop */
+
+@media screen and (min-width: 600px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main {
+        max-width: 50%;
+    }
+
+    /* Cards */
+
+    .cardButtons > button {
+        padding: 1em;
+        font-weight: 700;
+        border-radius: 0.75em;
+        border: 2px solid var(--white);
+    }
+
+    /* Blog */
+
+    .blog > h2 {
+        margin-top: 2em;
+    }
+
+    .content {
+        width: 50%;
+        align-self: center;
+    }
+
+    .author {
+        margin-top: 2em;
+    }
+
+    .hideButton {
+        margin: 3em 0 5em 0;
+    }
+
 }

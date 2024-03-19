@@ -155,3 +155,24 @@ span {
 .link:hover {
     background-color: var(--green);
 }
+
+/* Responsive Above 600px width - Desktop */
+
+@media screen and (min-width: 600px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main {
+        max-width: 50%;
+    }
+
+    .jobAbout {
+        margin-bottom: 5em;
+    }
+
+}

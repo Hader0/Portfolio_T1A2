@@ -182,3 +182,49 @@ section > p {
     transform: scale(1.2);
     background-color: var(--green);
 }
+
+/* Responsive Above 600px width - Desktop */
+
+@media screen and (min-width: 600px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main {
+        max-width: 50%;
+    }
+
+    /* Contact Top Section */
+
+    .contactMain {
+        margin-bottom: 4em;
+    }
+
+    .introContact > h1 {
+        margin: 2em 0 2em 0;
+    }
+
+    .introContact {
+        margin-bottom: 4em;
+    }
+
+    .introContact > p {
+        text-align: start;
+        text-wrap: pretty;
+    }
+
+    .profileIcons {
+        max-width: 70%;
+    }
+
+    /* Contact Form */
+
+    .contactForm > button {
+        margin-bottom: 4em;
+    }
+
+}

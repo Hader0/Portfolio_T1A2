@@ -85,7 +85,7 @@ main {
 }
 
 .imageContainer > img{
-    max-width: 50%;
+    transform: scale(0.5);
 }
 
 /* Introduction Section */
@@ -197,5 +197,66 @@ friends at work who use iPhone SE's, which means there may be others */
         height: 100%;
         row-gap: 2em;
         justify-content: center;
+    }
+}
+
+/* Responsive Above 600px width - Desktop */
+
+@media screen and (min-width: 600px) {
+
+    /* Image */
+
+    .imageContainer {
+        width: fit-content;
+    }
+
+    .imageContainer > img {
+        min-height: 600px;
+    }
+
+    /* Introduction */
+
+    .introduction {
+        margin-top: -2em;
+    }
+
+    .titleIntroduction {
+        font-size: 2em;
+        text-align: center;
+    }
+    
+    .nameIntroduction {
+        font-size: 4em;
+        font-weight: 1000;
+        color: var(--orange);
+        text-align: center;
+    }
+
+    .infoIntroduction {
+        max-width: 60%;
+        justify-self: center;
+        align-self: center;
+    }
+
+    /* Logo's */
+
+    .codingIcons {
+        max-width: 50%;
+
+        justify-self: center;
+        align-self: center;
+    }
+
+    .codingIcons > img {
+        min-width: 100px;
+        max-width: 15%;
+    }
+    
+
+    /* Contact Button */
+
+    .introductionContact {
+        padding: 25px;
+        font-size: 1.5em;
     }
 }
