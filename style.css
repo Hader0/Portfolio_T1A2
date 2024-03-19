@@ -86,6 +86,7 @@ main {
 
 .imageContainer > img{
     transform: scale(0.5);
+    margin: 2em o 2em 0;
 }
 
 /* Introduction Section */
