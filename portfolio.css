@@ -181,6 +181,12 @@ main {
     }
 
     main {
+        max-width: 100%;
+    }
+
+    /* Intro */
+
+    .introPortfolio {
         max-width: 50%;
     }
 
@@ -191,6 +197,12 @@ main {
         font-weight: 700;
         border-radius: 0.75em;
         border: 2px solid var(--white);
+    }
+
+    .portfolioCards {
+        flex-direction: row;
+        column-gap: 4em;
+        flex-wrap: wrap;
     }
 
     /* Blog */

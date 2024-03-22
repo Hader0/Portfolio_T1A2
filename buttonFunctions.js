@@ -4,7 +4,6 @@ function showBlogOne() {
     var i = document.getElementById("blogPostOne");
     if (i.style.display === "none") {
       i.style.display = "flex";
-      i.style.transition = "all 1s ease"
     } else {
       i.style.display = "none";
     }
@@ -14,7 +13,6 @@ function hideBlogOne() {
     var i = document.getElementById("blogPostOne");
     if (i.style.display === "flex") {
       i.style.display = "none";
-      i.style.transition = "all 1s ease"
     } else {
       i.style.display = "flex";
     }
