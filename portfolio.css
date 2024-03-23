@@ -80,6 +80,18 @@ main {
     transition: 0.25s ease;
 }
 
+.card > p {
+    width: 95%;
+    color: var(--white);
+    font-weight: 700;
+    font-size: large;
+    text-align: center;
+    background-color: var(--orange);
+    border-radius: 1em;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
 .card:hover {
     transform: scale(1.05);
 }
