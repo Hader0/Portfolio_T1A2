@@ -109,7 +109,6 @@ main {
 }
 
 .cardButtons > button:hover {
-    transform: scale(1.2);
     background-color: var(--green);
 }
 

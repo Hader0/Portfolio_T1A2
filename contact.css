@@ -90,6 +90,8 @@ section > p {
 
 .iconButton {
     color: var(--white);
+    font-size: 0.75em;
+    text-decoration: none;
     background-color: var(--orange);
     padding: 0.5em;
     font-weight: 700;

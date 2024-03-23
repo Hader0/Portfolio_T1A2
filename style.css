@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+::selection {
+    background: var(--green);
+    color: white;
+  }
+
 :root {
     --orange: #fa824c;
     --green: #A2D729;
@@ -11,6 +16,13 @@
     padding: 0;
     margin: 0;
     font-family: "Montserrat", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100dvh;
 }
 
 /* Header */
@@ -177,10 +189,15 @@ footer {
 /* Responsive Below 800px Height - The reason I added an option for under 800px is because I have
 friends at work who use iPhone SE's, which means there may be others */
 
-@media screen and (max-height: 800px) and (max-width: 1023px) {
-    
+@media screen and (max-height: 1000px) {
+
+    main {
+        min-height: 80dvh; 
+    }
+
     header {
         height: 8dvh;
+        margin: 0;
     }
     nav {
         height: 5dvh;
@@ -200,6 +217,12 @@ friends at work who use iPhone SE's, which means there may be others */
         margin-bottom: 2em;
         row-gap: 2em;
         justify-content: center;
+    }
+
+    footer {
+        position: flex-end;
+        margin-top: 0.65em;
+        max-height: 5dvh;
     }
 }
 
