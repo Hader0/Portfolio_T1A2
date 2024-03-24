@@ -1,4 +1,12 @@
+/* Hides the scroll bar */
+html {
+    scroll-behavior: smooth;
+}
 
+/* Hiding Scrollbar for Chrome, Safari and Opera */
+html::-webkit-scrollbar {
+    display: none;
+}
 
 /* Page Link Background Change */
 .portfolioPage {

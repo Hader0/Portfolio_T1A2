@@ -1,3 +1,4 @@
+/* Hides the scroll bar */
 html {
     scroll-behavior: smooth;
 }

@@ -69,7 +69,7 @@ I used Monterrat as it didn't stray too far from the norm of what most sites we 
 
 ##### Layout
 
-For the layout, I didn't want to overcomplicate the design by adding too many elements for what I intented to be simple. By implements the current layout, it gives the user ease of looking at any page and being able to understand what is displayed, especially since it is only a portfolio website. 
+For the layout, I didn't want to overcomplicate the design by adding too many elements for what I intended to be simple. By implementing the current layout, it gives the user ease of looking at any page and being able to understand what is displayed, especially since it is only a portfolio website. 
 
 My intention isn't to impress users with complicated functions, that is what the projects are for. I wanted the layout to leave an impression of who I am and what I have achieved.
 
