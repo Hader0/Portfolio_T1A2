@@ -4,7 +4,7 @@
 
 ### Published Site URL
 
-Click [here](www.haydenbradford.au) to view.
+Click [here](https://www.haydenbradford.au) to view.
 
 ### GitHub Repository
 
