@@ -4,7 +4,7 @@
 
 ### Published Site URL
 
-Click [here](https://assignment-t1a2.netlify.app/) to view.
+Click [here](www.haydenbradford.au) to view.
 
 ### GitHub Repository
 
