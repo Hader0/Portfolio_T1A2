@@ -143,6 +143,14 @@ main {
     transition: 0.25s ease;
 }
 
+.cardButtons > button:nth-child(2) {
+    cursor: not-allowed;
+}
+
+.cardButtons > button:nth-child(1) {
+    cursor: not-allowed;
+}
+
 .cardButtons > button:hover {
     background-color: var(--green);
 }

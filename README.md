@@ -96,7 +96,7 @@ I used a variety of components to create this site. Below are what was used:
     - Contact Page: For the LinkedIn, GitHub & Email section
     - Portfolio Page: For each project card
 - Button - Used on Home, Contact and Portfolio page
-- Input, Textarea - Used for the form on the Contact page
+- Form: Input, Textarea - Used for the form on the Contact page. Currently doesn't have any functionality, as noted below the form. It will have functionality once learned in the course.
 - Footer - To show the copyright statement on all pages
 - Anchor tag - Used to direct the user to a different part of the page, different page or to a different site
 
